@@ -28,10 +28,9 @@ function Favorites({ myFavorites, removeFromFavorites }) {
 
   return (
     <div>
-      <h3>My Favorites</h3>
-      <div className={styledFavorites.containerCard}>
-
-        <div>
+      <h3>My Favorites</h3>  
+      
+        <div className={styledFavorites.order}>
           <select onChange={handleOrder}>
             <option value="order" disabled='disabled'>Order By</option>
             <option value="Ascendente">Ascendente</option>
@@ -39,7 +38,7 @@ function Favorites({ myFavorites, removeFromFavorites }) {
           </select>
         </div>
 
-        <div>
+        <div className={styledFavorites.filter}>
           <select onChange={handleFilter}>
             <option value="order" disabled='disabled'>Filter By</option>
             <option value="Male">Male</option>
@@ -49,6 +48,7 @@ function Favorites({ myFavorites, removeFromFavorites }) {
         </select>
       </div>
 
+      <div className={styledFavorites.containerCard}>
       {myFavorites.map((favorite) => (
         <Card
           key={favorite.id}
