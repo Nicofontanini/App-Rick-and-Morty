@@ -31,7 +31,7 @@ La aplicación permite a los usuarios explorar información sobre los personajes
 ## Instrucciones de Ejecución
 
 Inicio de Seccion: 
-User: Admin@Admin@gmail.com 
+User: Admin@Admin.com
 Password: Admin1234!
 
 ### Frontend (Cliente)
