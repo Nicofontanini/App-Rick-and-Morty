@@ -1,0 +1,21 @@
+.SearchBar {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.Boton {
+    background-color: rgb(230, 230, 125);
+    border-style: none;
+    padding: 10px;
+}
+
+.Boton:hover {
+    background-color: rgb(223, 244, 101);
+    cursor: pointer;
+}
+
+.input {
+    width: 300px;
+    margin-right: 30px;
+}

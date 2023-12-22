@@ -1,0 +1,54 @@
+.Carta {
+    margin: 10px;
+    position: relative;
+    background-color: rgb(230, 230, 125);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Img {
+    border-radius: 10px;
+    width: 250px;
+}
+
+.Fav{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgb(240, 132, 124);
+    border-style: none;
+}
+
+.Boton {
+    position: absolute;
+    top: 10%;
+    /* Ajusta esta posición según tus necesidades */
+    left: 90%;
+    /* Ajusta esta posición según tus necesidades */
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    margin: 0;
+    background-color: rgb(240, 132, 124);
+    border-style: none;
+    width: 40px;
+}
+
+.Boton:hover {
+    background-color: rgb(248, 97, 97);
+    cursor: pointer;
+}
+
+.Name {
+    position: absolute;
+    top: 60%;
+    /* Ajusta esta posición según tus necesidades */
+    left: 50%;
+    /* Ajusta esta posición según tus necesidades */
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    margin: 0;
+}

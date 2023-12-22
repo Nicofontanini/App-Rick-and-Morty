@@ -1,0 +1,16 @@
+div h3{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+}
+
+.containerCard{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border-radius: 10px;
+    justify-content: center;
+    width: 100%;
+    overflow-x: hidden;
+}
+

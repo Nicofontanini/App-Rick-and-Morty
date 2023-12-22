@@ -1,0 +1,34 @@
+/* Nav.module.css */
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    box-shadow: 0px 5px 15px rgb(230, 230, 125);
+    border-radius: 3px; 
+    margin-bottom: 20px;
+  }
+  
+  
+  .botonHome,
+  .botonAbout,
+  .botonLogout,
+  .botonFavorites {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .botonHome:hover,
+  .botonAbout:hover,
+  .botonLogout:hover {
+    background-color: #0056b3;
+  }
+  
